@@ -27,21 +27,42 @@ let x = 0;
 
 // pake do while
 do {
-  if (kalimat[x] === 'a' || kalimat[x] === 'i' ||kalimat[x] === 'u' || kalimat[x] === 'e' || kalimat[x] === 'o') {
-    perubahanKalimat += '$';
-  } else {
-    perubahanKalimat += kalimat[x];
+  // pake switch
+  switch (kalimat[x]) {
+    case "a":
+      perubahanKalimat += '$';
+      break;
+    case "i":
+      perubahanKalimat += '$';
+      break;
+    case "u":
+      perubahanKalimat += '$';
+      break;
+    case "e":
+      perubahanKalimat += '$';
+      break;
+    case "o":
+      perubahanKalimat += '$';
+      break;
+    default:
+      perubahanKalimat += kalimat[x];
   }
-  
+
   x++;
 }while(x < kalimat.length)
 
 console.log("kalimat sudah berubah menjadi : " + perubahanKalimat);
 
-// let hitung = 0;
-
+// pake do while
 // do {
-//   console.log(`Hitungan ke : ${hitung}`);
-//   hitung++;
-// } while (hitung < 20)
-// console.log(`Hitungan mencapai ${hitung}`);
+//   //pake if
+//   if (kalimat[x] === 'a' || kalimat[x] === 'i' ||kalimat[x] === 'u' || kalimat[x] === 'e' || kalimat[x] === 'o') {
+//     perubahanKalimat += '$';
+//   } else {
+//     perubahanKalimat += kalimat[x];
+//   }
+
+//   x++;
+// }while(x < kalimat.length)
+
+// console.log("kalimat sudah berubah menjadi : " + perubahanKalimat);
