@@ -26,17 +26,17 @@ let x = 0;
 // console.log("kalimat sudah berubah menjadi : " + perubahanKalimat)
 
 // pake do while
-// do {
-//   if (kalimat[x] === 'a' || kalimat[x] === 'i' ||kalimat[x] === 'u' || kalimat[x] === 'e' || kalimat[x] === 'o') {
-//     perubahanKalimat += '$';
-//   } else {
-//     perubahanKalimat += kalimat[x];
-//   }
+do {
+  if (kalimat[x] === 'a' || kalimat[x] === 'i' ||kalimat[x] === 'u' || kalimat[x] === 'e' || kalimat[x] === 'o') {
+    perubahanKalimat += '$';
+  } else {
+    perubahanKalimat += kalimat[x];
+  }
   
-//   x++;
-// }while(x < kalimat.length)
+  x++;
+}while(x < kalimat.length)
 
-// console.log("kalimat sudah berubah menjadi : " + perubahanKalimat);
+console.log("kalimat sudah berubah menjadi : " + perubahanKalimat);
 
 // let hitung = 0;
 
